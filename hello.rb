@@ -1,6 +1,7 @@
-# frozen_string_literal: true
 
-class Hello
+
+# This shiny star is a Ruby script.
+class Helloworld
   def initialize(name)
     @name = name
   end
@@ -10,5 +11,5 @@ class Hello
   end
 end
 
-hello = Hello.new('World')
+hello = Helloworld.new('World')
 hello.say_hello
