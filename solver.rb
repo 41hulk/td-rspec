@@ -1,6 +1,3 @@
-# frozen_string_literal: true
-
-# This class is to check the methods
 class Solver
   def factorial(number)
     (1..number).inject(:*) || 1
