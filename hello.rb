@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 # This shiny star is a Ruby script.
 class Helloworld
