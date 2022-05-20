@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Hello
   def initialize(name)
     @name = name
@@ -8,5 +10,5 @@ class Hello
   end
 end
 
-hello = Hello.new("World")
+hello = Hello.new('World')
 hello.say_hello
