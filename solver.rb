@@ -1,16 +1,20 @@
+# frozen_string_literal: true
+
+# This class is to check the methods
 class Solver
-  def factorial(n)
-    (1..n).inject(:*) || 1
+  def factorial(number)
+    (1..number).inject(:*) || 1
   end
 
-  def reverse(s)
-    s.reverse
+  def reverse(string)
+    string.reverse
   end
 
-  def fizzbuzz(i)
-    string = ""
+  def fizzbuzz(number)
+    string = ''
 
-    string += "Fizz" if i % 3 == 0
-    string += "Buzz" if i % 5 == 0
+    string += 'Fizz' if (number % 3).zero?
+    string += 'Buzz' if (number % 5).zero?
+    string
   end
 end
