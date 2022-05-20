@@ -1,5 +1,4 @@
 
-
 # This shiny star is a Ruby script.
 class Helloworld
   def initialize(name)
